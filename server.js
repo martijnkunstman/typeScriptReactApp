@@ -21,7 +21,6 @@ const connection = mysql.createConnection({
 connection.connect();
 
 app.get("/items", (req, res) => {
-  console.log("Hello World!");
   connection.query("SELECT * FROM items", (err, rows, fields) => {
     res.send(rows);
   });
