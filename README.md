@@ -2,7 +2,9 @@ npm run dev
 npm run build
 node server.js (die maakt gebruik van bestanden in dist map)
 
-
+todo: 
+use axios
+auth
 
 # React + TypeScript + Vite
 
